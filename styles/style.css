@@ -29,7 +29,7 @@ html {
     padding-left: 15px;
 }
 
-.navigation ul li{
+.navigation ul li {
     display: inline-block;
     color: #ffffff;
     font-size: 12px;
@@ -55,34 +55,35 @@ html {
 }
 
 .textBox:last-child {
-     margin-right: 0;
- }
+    margin-right: 0;
+}
 
-.textBox h1{
+.textBox h1 {
     font-size: 28px;
     padding: 28px 0px 16px 15px;
 }
 
-.textBox p{
+.textBox p {
     font-size: 12px;
     padding-left: 15px;
     color: #907471;
 }
- .mid-content {
-     background-color: #ffffff;
-     height: 276px;
-     margin-bottom: 28px;
- }
 
- .content {
-     float: left;
-     width: 485px;
- }
+.mid-content {
+    background-color: #ffffff;
+    height: 276px;
+    margin-bottom: 28px;
+}
 
- .content h1 {
-     font-size: 30px;
-     padding: 32px 0px 20px 17px;
- }
+.content {
+    float: left;
+    width: 485px;
+}
+
+.content h1 {
+    font-size: 30px;
+    padding: 32px 0px 20px 17px;
+}
 
 .content h2 {
     font-size: 20px;
@@ -172,4 +173,106 @@ html {
     padding: 4px 9px;
     margin: 10px 10px;
     line-height: 17px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .navigation ul li:last-child{
+
+        padding-right: 5px;
+    }
+
+    .textBox {
+        display: block;
+        width: 100%;
+        height: unset;
+        margin-bottom: 18px;
+        padding-bottom: 19px;
+    }
+
+    .textBox h1 {
+        font-size: 28px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .top-content {
+        display: inline-block;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .mid-content {
+        margin-top: 30px;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15px;
+    }
+
+    .top-text {
+        width: 95%;
+    }
+
+    .bottom-text {
+        width: 95%;
+    }
+
+    .mid-content-navi {
+        display: inline;
+        width: 30%;
+    }
+
+    .content {
+        width: 70%;
+    }
+
+    .footer {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+    }
+
+
+    .indexCount {
+        margin: 10px 5px;
+    }
+
+    .gallery img {
+        width: 50%;
+        display: inline;
+    }
+
+    .bottom-text p {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .footer {
+        display: block;
+    }
+
+    .right {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .content {
+        float: unset;
+        width: unset;
+    }
+
+    .mid-content-navi {
+        float: unset;
+    }
 }
