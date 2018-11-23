@@ -185,7 +185,7 @@ html {
         width: 100%;
     }
 
-    .navigation ul li:last-child{
+    .navigation ul li:last-child {
 
         padding-right: 5px;
     }
@@ -240,7 +240,6 @@ html {
         padding: 0;
     }
 
-
     .indexCount {
         margin: 10px 5px;
     }
@@ -255,7 +254,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 535px)  {
     .footer {
         display: block;
     }
@@ -276,3 +275,6 @@ html {
         float: unset;
     }
 }
+
+
+
