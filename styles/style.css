@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: #eeeeee;
+    font-family: Roboto;
+}
+
+.container {
+    margin: auto;
+    width: 720px;
+}
+
+.siteLogo {
+    line-height: 66px;
+    background-color: #ffffff;
+    padding: 15px 0px 0px 15px;
+}
+
+.navigation {
+    line-height: 50px;
+    background-color: #152733;
+    margin-bottom: 15px;
+}
+
+.navigation ul {
+    padding-left: 15px;
+}
+
+.navigation ul li{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.header-img {
+    margin-bottom: 25px;
+}
+
+.top-content {
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.textBox {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 230px;
+    height: 160px;
+    margin-right: 11px;
+}
+
+.textBox:last-child {
+     margin-right: 0;
+ }
+
+.textBox h1{
+    font-size: 28px;
+    padding: 28px 0px 16px 15px;
+}
+
+.textBox p{
+    font-size: 12px;
+    padding-left: 15px;
+    color: #907471;
+}
+ .mid-content {
+     background-color: #ffffff;
+     height: 276px;
+     margin-bottom: 28px;
+ }
+
+ .content {
+     float: left;
+     width: 485px;
+ }
+
+ .content h1 {
+     font-size: 30px;
+     padding: 32px 0px 20px 17px;
+ }
+
+.content h2 {
+    font-size: 20px;
+    padding: 12px 0px 17px 17px;
+}
+
+.mid-content-navi h2 {
+    font-size: 20px;
+    padding: 28px 0px 7px 0px;
+}
+
+.content p {
+    font-size: 12px;
+    color: #907471;
+    padding-left: 16px;
+}
+
+.mid-content-navi {
+    display: block;
+    float: left;
+    width: 220px;
+}
+
+.mid-content-navi li {
+    line-height: 50px;
+    list-style: none;
+    background-color: #e8e8e8;
+    padding-left: 15px;
+}
+
+.gallery h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.imgContainer {
+    display: block;
+}
+
+.imgContainer img {
+    display: inline-block;
+}
+
+.gallery {
+    padding-bottom: 42px;
+}
+
+.footer {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0px 15px 0px 15px;
+    background-color: #ffffff;
+    width: 690px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    color: #bbca31;
+}
+
+.fbIcon {
+    display: inline;
+    float: right;
+    color: white;
+}
+
+.navigation span {
+    display: inline;
+    border: 1px solid #3c4154;
+    border-radius: 25px;
+    background-color: #3c4154;
+}
+
+.indexCount {
+    display: inline-block;
+    float: right;
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+    background-color: #d3d3d3;
+}
