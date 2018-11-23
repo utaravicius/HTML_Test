@@ -157,14 +157,19 @@ html {
 .navigation span {
     display: inline;
     border: 1px solid #3c4154;
-    border-radius: 25px;
+    border-radius: 50%;
     background-color: #3c4154;
+    line-height: 15px;
+    padding: 0px 4px;
 }
 
 .indexCount {
-    display: inline-block;
+    display: inline;
     float: right;
     border: 1px solid #d3d3d3;
     border-radius: 25px;
     background-color: #d3d3d3;
+    padding: 4px 9px;
+    margin: 10px 10px;
+    line-height: 17px;
 }
